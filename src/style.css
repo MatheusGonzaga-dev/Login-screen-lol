@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    
+}
+    
+
+
+.logo {
+    background: #f5f6fa;
+    width: 35%;
+    height: 100vh;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 0px;
+    padding: 35px;
+}
+
+.logo img {
+    position: relative;
+    left: 0px;
+}
+
+.conta h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    margin-top: 80px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+.input-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.input-pass {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.username {
+    width: 300px;
+    height: 50px;
+    background:  #d9d9d9;
+    border: none;
+    border-radius: 3px;
+}
+
+
+
+.pass {
+    width: 300px;
+    height: 50px;
+    background:  #d9d9d9;
+    border: none;
+    border-radius: 3px;
+}
+
+.manter-login {
+    margin-top: 20px;
+    
+}
+
+.manter-login label {
+    color:  grey;
+    font-family: "Nunito", sans-serif;
+    font-weight: bold;
+    
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    width: 100%;
+}
+
+.image img {
+    min-width: 850px;
+    max-width: 100%;
+    left: 400px;
+    top: -420px;
+    position: relative;
+}
+
+.seta {
+    border: 1px solid black;
+    margin-top: 60px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 35%;
+    border-radius: 25px;
+}
+
+.seta:hover {
+    background: #a9a9a9;
+    cursor: pointer;
+
+}
+.season {
+    display: flex;
+    margin-top: 70px;
+    font-size: 12px;
+    color: grey;
+}
+
+::-webkit-input-placeholder {
+    display: flex;
+    position: relative;
+    top: -15px;
+    left: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+}
+
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100%;
+}
+
+.photo img{
+    width: 100%;
+    height: 100vh;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d9d9d9;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 70px;
+    bottom: 50px;
+    border-radius: 10px;
+}
